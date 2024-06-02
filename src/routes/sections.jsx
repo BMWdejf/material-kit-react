@@ -23,14 +23,14 @@ export default function Router() {
         </DashboardLayout>
       ),
       children: [
-        { element: <IndexPage />, index: true },
+        { path: 'dashboard', element: <IndexPage /> }, // change index page to dashboard
         { path: 'user', element: <UserPage /> },
         { path: 'products', element: <ProductsPage /> },
         { path: 'blog', element: <BlogPage /> },
       ],
     },
     {
-      path: 'login',
+      path: '/', // set login page as index
       element: <LoginPage />,
     },
     {
