@@ -1,3 +1,4 @@
+
 import { faker } from '@faker-js/faker';
 
 import Container from '@mui/material/Container';
@@ -15,6 +16,8 @@ import AppWidgetSummary from '../app-widget-summary';
 import AppTrafficBySite from '../app-traffic-by-site';
 import AppCurrentSubject from '../app-current-subject';
 import AppConversionRates from '../app-conversion-rates';
+
+
 
 // ----------------------------------------------------------------------
 
@@ -55,12 +58,12 @@ export default function AppView() {
 
         <Grid xs={12} sm={6} md={3}>
           <AppWidgetSummary
-            title="Bug Reports"
-            total={234}
-            color="error"
-            icon={<img alt="icon" src="/assets/icons/glass/ic_glass_message.png" />}
+            title="Import Products"
+            total={6381}
+            icon={<img alt="icon" src="/assets/icons/glass/ic_glass_buy.png" />}
           />
         </Grid>
+
 
         <Grid xs={12} md={6} lg={8}>
           <AppWebsiteVisits
