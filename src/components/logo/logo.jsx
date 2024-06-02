@@ -25,14 +25,13 @@ const Logo = forwardRef(({ disabledLink = false, sx, ...other }, ref) => {
       ref={ref}
       component="div"
       sx={{
-        width: 40,
         height: 40,
         display: 'inline-flex',
         ...sx,
       }}
       {...other}
     >
-      <h1>Logos</h1>
+      <h3>Látky velkoobchod</h3>
     </Box>
   );
 
